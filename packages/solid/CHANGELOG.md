@@ -1,5 +1,22 @@
 # solid-js
 
+## 2.0.0-rc.15
+
+### Patch Changes
+
+- 4afc662: Move `dynamicComponent` into `solid-js`. `@solidjs/web` keeps `dynamic` and re-exports `dynamicComponent`.
+- 39450e5: Keep an SSR Errored fallback's hydration ids when its children slot is retried.
+- 0c4bff7: Add `lazyModule()` so a lazy module that is not a component can be preloaded and hydrated by module id.
+- b749474: Pin `seroval` and `seroval-plugins` to exactly `1.6.7`: 1.6.8 changed the stream representation in a patch release and grew bundles. Stream detection now requires a real stream — the JSON decoder (server functions, frames) treats a value as a stream only when seroval's `isStream` holds and it has a callable `.on`, so decoded plain data that happens to carry a `__SEROVAL_STREAM__` key stays data. The frames container-trace check, the client container-trace materializer and the render stream's channel guard also recognize seroval's untagged stream class, and the frames border walk tests for an async iterator first.
+- Updated dependencies [5a26ebe]
+- Updated dependencies [a963ec1]
+- Updated dependencies [ef1c297]
+- Updated dependencies [20db6a2]
+- Updated dependencies [1c14992]
+- Updated dependencies [c689a9a]
+- Updated dependencies [f6905dc]
+  - @solidjs/signals@2.0.0-rc.15
+
 ## 2.0.0-rc.14
 
 ### Patch Changes

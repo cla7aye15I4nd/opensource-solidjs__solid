@@ -1,5 +1,25 @@
 # todos-server-example
 
+## 0.0.1-rc.3
+
+### Patch Changes
+
+- Updated dependencies [617d195]
+- Updated dependencies [4afc662]
+- Updated dependencies [a14c18b]
+- Updated dependencies [39450e5]
+- Updated dependencies [469733e]
+- Updated dependencies [abe12fc]
+- Updated dependencies [0c4bff7]
+- Updated dependencies [3173a14]
+- Updated dependencies [5d75ed8]
+- Updated dependencies [86ac6da]
+- Updated dependencies [49bed5c]
+- Updated dependencies [b749474]
+- Updated dependencies [22f942d]
+  - @solidjs/web@2.0.0-rc.15
+  - solid-js@2.0.0-rc.15
+
 ## 0.0.1-rc.2
 
 ### Patch Changes
